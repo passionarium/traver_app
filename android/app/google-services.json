@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "453120681462",
+    "project_id": "traver-19519",
+    "storage_bucket": "traver-19519.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453120681462:android:c82ad83d195efeddaf13d7",
+        "android_client_info": {
+          "package_name": "com.freelance.traver_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "453120681462-om4v797cti9o9om1m97548f9ehvhcfkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXNmIcc-fY0DLeIrhWaGTv3c4d9keIVM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "453120681462-om4v797cti9o9om1m97548f9ehvhcfkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

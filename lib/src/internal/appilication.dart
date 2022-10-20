@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import '../core/presentation/pages/launch_page.dart';
 
+import '../routes/routes_impl.dart';
+import '../routes/routes_name.dart';
 
-class MyGoalsApp extends StatefulWidget {
-  const MyGoalsApp({super.key});
+class TraverApp extends StatefulWidget {
+  const TraverApp({super.key});
 
   @override
-  State<MyGoalsApp> createState() => _MyGoalsAppState();
+  State<TraverApp> createState() => _TraverAppState();
 }
 
-class _MyGoalsAppState extends State<MyGoalsApp> {
+class _TraverAppState extends State<TraverApp> {
   @override
   Widget build(final BuildContext context) {
     return const MaterialApp(
@@ -21,8 +25,8 @@ class _MyGoalsAppState extends State<MyGoalsApp> {
         Locale('en', ''),
       ],
       debugShowCheckedModeBanner: false,
-      home: RootPage(),
-      title: 'My Goals',
+      home: LaunchPage(),
+      title: 'Traver',
       onGenerateRoute: RouterDevelopImpl.generateRoute,
       initialRoute: RouteName.launch,
     );
